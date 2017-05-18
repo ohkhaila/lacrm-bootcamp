@@ -1,0 +1,31 @@
+body{
+    background-color:#eeeeee;
+    font-family:sans-serif;
+    font-size:16px
+}
+    h1{
+        background-color:#fccff4;
+        color:#4c494b;
+        padding:5px;
+        text-align:center
+    }
+        div{
+            max-width:800px;
+            margin:auto;
+            background-color:#ffffff;
+            padding:10px;
+            border-radius:25px
+        }
+    h2{
+    border-bottom-color:#81858c;
+    color:#fccff4;
+    padding:4px;
+    border-bottom-style:dashed
+    }
+    h3{
+    color:#fccff4;
+    font-size:27px;
+    padding4px;
+    border-bottom-style:dashed;
+    border-bottom-color:#81858c
+    }
