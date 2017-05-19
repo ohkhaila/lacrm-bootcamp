@@ -1,27 +1,32 @@
 body{
-    background-image:url("sunflower.jpg");
+    background-image:url("https://68.media.tumblr.com/727d0495d7898fcbfd3b3b748891228c/tumblr_no73mjJ3xt1sybtbuo1_500.jpg");
     font-family:sans-serif;
-    font-size:16px;
+    font-size:15px;
 }
     h1{
-        background-color:#fccff4;
-        color:#4c494b;
-        padding:5px;
-        text-align:center
+        background-color:#fccff4
+        color:#ffffff;
+        padding:3px;
+        text-align:center;
     }
-        div{
-            max-width:800px;
-            margin:auto;
-            background-color:#ffffff;
-            padding:10px;
-            border-radius:25px
-        }
+
+    div{
+        max-width:800px;
+        margin:auto;
+        background-color:#b8ecef;
+        padding:20px;
+        border-radius:15px;
+    }
+
+
+
     h2{
     border-bottom-color:#81858c;
     color:#fccff4;
     padding:4px;
     border-bottom-style:dashed
     }
+
     h3{
     color:#fccff4;
     font-size:27px;

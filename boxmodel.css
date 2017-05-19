@@ -1,0 +1,13 @@
+/*General Styles*/
+body{
+    margin:0;
+}
+#wrapper *{
+    padding:20px;
+    font-size:20px;
+    border:20px solid rgba(0,0,0,0.5)
+}
+#wrapper header, #wrapper footer {
+    background-color:blue;
+    color:white;
+}
