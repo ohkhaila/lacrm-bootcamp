@@ -1,12 +1,12 @@
 
     body{
             height: 100%;
-            background-image:url("https://www.thewonderforest.com/wp-content/uploads/2016/03/pinkwatercolordesktop.jpg");
+
             height: 100%;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            font-family:sans-serif;
+            font-family: fantasy;
             font-size:14px;
         }
             h1{
@@ -31,26 +31,9 @@
             border-bottom-color:#81858c
             }
     .topnav {
-        background-color: none;
-        overflow:hidden;
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-    .topnav a {
-        float:left;
-        display: block;
-        color:#424344;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 15px;
-    }
-    .topnav a:hover {
-        background-color: #fb91ff
-    }
-    .topnav li{
-        list-style-type: none;
-        margin:0
-        padding:0;
-    }
+    margin-top: 40px;
+padding: 24px;
+text-align: center;
+font-family: Raleway;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}

@@ -6,6 +6,16 @@ include('config/init.php');
             <title>Treat Yo'self!</title>
                 <link rel='stylesheet' href='/style.css?Time=<?php echo microtime()?>'/>
         </head>
+        <div class="topnav" id="myTopnav">
+            <ul>
+                <li><a href="/index.php">Home</a></li>
+                <li><a href="public/wellness.php">Wellness</a></li>
+                <li><a href="public/fun.php">Fun</a></li>
+                <li><a href="public/empowerment.php">Empowerment</a></li>
+                <li><a href="public/aboutme.php">About</a></li>
+                <li><a href="public/resources.php">Resources</a></li>
+            </ul>
+        </div>
  <body>
     <h1>Treat Yo'Self!</h1>
     <p>Too often I find myself cutting out things that I enjoy because I have other commitments. So I have been trying
