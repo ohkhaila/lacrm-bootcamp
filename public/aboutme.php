@@ -16,14 +16,5 @@
                 <li><a href="public/resources.php">Resources</a></li>
             </ul>
         </div>
-    <body>
-        <h1>Hi, I'm Kay!</h1>
-        <h2>What is this place?
-            <p>Kay is the creator of this website, an online community of people who are on a journey towards understanding, appreciation, and unity of ourselves.
-        Here we are working to improve ourselves which will end in countless improvements in every aspect of our lives. (purpose)
 
-        (how it started/my inspiration)
-
-        (future goals for site and maybe self)</p>
-    </h2>
     </html>

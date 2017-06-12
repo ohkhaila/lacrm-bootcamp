@@ -17,10 +17,8 @@ include('config/init.php');
          <title>Let's Get Healthy!</title>
 
      </head>
-
- <body>
-     <h1>Let's Get Healthy!</h1>
-     <h2>First I want to start by saying that our specific details of what it means to be healthy can be different.
-            In fact, they should be different! But we are all striving to be healthy mentally, physically, and emotionally.</h2>
-
-</body>
+     <body>
+         <?php
+getAllPost();
+?>
+     </body>
