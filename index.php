@@ -3,9 +3,10 @@
     ?>
     <html>
         <head>
-            <title>My website</title>
+            <title>Keeping Up With Kay</title>
                    <link rel='stylesheet' href='style.css?Time=<?php echo microtime()?>'/>
                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                   <link href="https://fonts.googleapis.com/css?family=Khand" rel="stylesheet">
         </head>
         <body>
             <div class="topnav" id="nav-1">
@@ -21,7 +22,11 @@
             <h1> Keeping Up with Kay </h1>
             <h2> Hello! Welcome!  </h2>
             <h3> Intro Video</h3>
-            <h4> Latest blog posts </h4>
+            <h4> Latest blog posts <br>
+                <?php
+       getAllPost();
+       ?>
+    </h4>
             <h5>pictures</h5>
             <h6>subscription space
                 <form method="POST" action="public/subscribe.php">

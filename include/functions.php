@@ -1,5 +1,5 @@
 <?php
-    function getPost(){
+    function getPosts(){
         $Post = array(
             0=>array(
                 "PostId"=>0,
@@ -32,7 +32,7 @@
     }
 // "html".php."html".php;
     function getAllPost() {
-        $Post = getPost();
+        $Post = getPosts();
         foreach($Post as $indiv){
             // $indiv['title']
             echo "
@@ -40,8 +40,8 @@
         }
     }
 
-    function SeePost($PostId) {
-        $Post = getPost();
+    function getPost($PostId) {
+        $Post = getPosts();
         echo $Post[$PostId]['Title'];
         echo $Post[$PostId]['Body'];
 

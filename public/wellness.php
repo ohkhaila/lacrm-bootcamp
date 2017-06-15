@@ -18,7 +18,5 @@ include('config/init.php');
 
      </head>
      <body>
-         <?php
-getAllPost();
-?>
+
      </body>
