@@ -26,6 +26,13 @@
                 value in spending time with yourself and doing things for yourself. Nothing is more important in your life than you. I mean that.
                 Without you, you could not do ANY of the things that you do. SO take care of you! Take yourself out, walk in the park, take a nap,
                 whatever you want to do. I challenge you to take 3 hours out of your week to do things that make you feel good.</p>"
+            ),
+            3=>array(
+                "PostId"=>3,
+                "Title"=>"My Thoughts on the Weather",
+                "Body"=>"<h2>I don't like it when it's too hot. I also don't like it when it's too cold.
+                    Despite my allergies and ashtma, I LOVE being outdoors. When it is warm out I like to go on walks in the park. When the weather is perfect (about 75 degrees) the best place for me to be is at the Boat House in Forest Park or in a canoe on Creve Coeur lake.
+                The outdoors have become a place where I find tranquilty.</h2>"
             )
         );
         return $Post;
