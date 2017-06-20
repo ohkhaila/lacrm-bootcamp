@@ -5,7 +5,7 @@ date_default_timezone_set('America/Chicago');
 }
 
                 echo"
-                    <form method 'get' action=''>
+                    <form method='post' action=''>
                         <input name='num1' type='text' />
                         <select name= 'operation'>
                             <option value= 'add'>+</option>
@@ -20,21 +20,22 @@ date_default_timezone_set('America/Chicago');
                         ";
 
 
-                if(isset($_REQUEST['num1'])){$result6=add($_REQUEST['num1'],$_REQUEST['num2']);
-                    if($_REQUEST['operation']=='add'){
-                         $y= $_REQUEST['num1'] + $_REQUEST['num2'];
-                    }
-                    else if($_REQUEST['operation']=='subtract'){
-                         $y= $_REQUEST['num1'] - $_REQUEST['num2'];
-                    }
-                    else if($_REQUEST['operation']=='multiply'){
-                         $y= $_REQUEST['num1'] * $_REQUEST['num2'];
-                    }
-                    else if($_REQUEST['operation']=='divide'){
-                         $y= $_REQUEST['num1'] / $_REQUEST['num2'];
-                    }
-                    echo "<h1>The result is $y </h1>";
-                }
+    if(isset($_REQUEST['num1'])){
+        $result6=add($_REQUEST['num1'],$_REQUEST['num2']);
+        if($_REQUEST['operation']=='add'){
+             $y= $_REQUEST['num1'] + $_REQUEST['num2'];
+        }
+        else if($_REQUEST['operation']=='subtract'){
+             $y= $_REQUEST['num1'] - $_REQUEST['num2'];
+        }
+        else if($_REQUEST['operation']=='multiply'){
+             $y= $_REQUEST['num1'] * $_REQUEST['num2'];
+        }
+        else if($_REQUEST['operation']=='divide'){
+             $y= $_REQUEST['num1'] / $_REQUEST['num2'];
+        }
+        echo "<h1>The result is $y </h1>";
+    }
 
 /*
                 function change($color1, $color2)
@@ -65,6 +66,7 @@ date_default_timezone_set('America/Chicago');
                 		 <input type= 'submit'/>
                 		 </form>
                 		 ";
+
 
 
 

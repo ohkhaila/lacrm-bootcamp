@@ -3,7 +3,7 @@ include('config/init.php');
 
 $PostId = $_REQUEST['PostId'];
 
-SeePost($PostId);
+getPost($PostId);
 
 // function getAllPost(){
 //     $Post = getPost();

@@ -1,10 +1,12 @@
+
+<link href="https://fonts.googleapis.com/css?family=Khand" rel="stylesheet">
+
 .bgimg {
-background-image: url('http://www.dreamalittlebigger.com/wp-content/uploads/2013/08/gold-hi-res-glitter-freebie-dream-a-little-bigger.jpg?x32341');
 height: 100%;
 background-position: center;
 background-size: cover;
 position: relative;
 color:white;
-font-family:"Courier New", Courier, monospace;
+font-family:'Khand', sans-serif;
 font-size:  25px;
 }
