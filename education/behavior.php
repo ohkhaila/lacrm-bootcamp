@@ -1,10 +1,9 @@
 <?php
 date_default_timezone_set('America/Chicago');
 
-if(isset($_REQUEST['operation'])){
+if(isset($_REQUEST['class']['directions'])){
     echo "The form was submitted";
-    var_dump($_REQUEST);
-    exit;
+
 }
 ?>
  <html>
@@ -134,8 +133,12 @@ if(isset($_REQUEST['operation'])){
                     <input type='submit'>
             </form>
 
+
 <?php
-    /*
-        if(isset($_REQUEST['Kayla'])){$}
-*/
+        if(isset($_REQUEST['post'])){
+            echo "yes";
+        if($_REQUEST['class']=='fox'){
+            echo "You're in the fox class!";}
+        }
+
  ?>

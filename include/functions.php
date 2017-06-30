@@ -3,7 +3,7 @@
         $Post = array(
             0=>array(
                 "PostId"=>0,
-                "Title"=>"Hi, I'm Kay!",
+                "Title"=>"About",
                 "Body"=>"<h2>What is this place?
                 <p>Kay is the creator of this website, an online community of people who are on a journey towards understanding, appreciation, and unity of ourselves.
                 Here we are working to improve ourselves which will end in countless improvements in every aspect of our lives. (purpose)
@@ -37,19 +37,31 @@
         );
         return $Post;
     }
-// "html".php."html".php;
-    function getAllPost() {
-        $Post = getPosts();
+
+    function getPost($PostId) {
+        $result=dbQuery("
+        SELECT *
+        FROM posts
+        WHERE PostId = :PostId
+        ", array(
+            "PostId"=>$PostId
+        ));
+        return $result->fetch();
+    }
+
+    function getAllBlogPosts(){
+        $result=dbQuery("
+            SELECT *
+            FROM posts
+            ");
+        return $result->fetchAll();
+}
+    /*function getpost($PostId){
+        $post = getpost();
+        echo $post['PostId']['Title'];
+        echo $Post['PostId']['Body'];
         foreach($Post as $indiv){
             // $indiv['title']
             echo "
-            <a href='view_post.php?PostId=".$indiv['PostId']."'>".$indiv['Title']."</a>";
-        }
-    }
-
-    function getPost($PostId) {
-        $Post = getPosts();
-        echo $Post[$PostId]['Title'];
-        echo $Post[$PostId]['Body'];
-
-    }
+            <a href='/public/view_post.php?PostId=".$indiv['PostId']."'>".$indiv['Title']."</a>";
+        } */

@@ -12,7 +12,7 @@ body{
         #nav{
             background-color: none;
             overflow: hidden;
-            position:sticky;
+            position:fixed;
             top:0;
             width: 100%;
         }
@@ -29,6 +29,9 @@ body{
             list-style-type: none;
             margin: 0;
             padding: 0;
+        }
+        #nav a:hover{
+            background-color: #fb91ff;
         }
             .fa {
                 padding: 20px;
@@ -66,16 +69,14 @@ body{
                     background: #125688;
                     color:white;
                 }
-
-        /*    #link-1{
-                transition: .3s ease;
+            #sidebar {
+            position:fixed;
+            top:0; bottom:0; right:0;
+            width:300px;
+            background:#ffffff;
+            background: rgba(255,255,255, 0.3);
+            font-size: 18px;
             }
-            #link-1:hover{
-              border-top: 4px solid #ffffff;
-              border-bottom: 4px solid #ffffff;
-              padding: 6px 0;
-            }
-*/
     .page1{
         height: 1000px;
     }
@@ -90,34 +91,34 @@ body{
             color:#141516;
             text-align:center;
             }
-        h2{
+        #welcome{
             color:#000000;
             background-color: #b1dfd5;
             width: 100%;
             height:500px;
             }
-        h3{
+        #intro{
             color:#141516;
             background-color: #fedcd2;
             font-size:25px;
             width: 100%;
             height:500px;
             }
-        h4{
+        #blogPosts{
             color:#000000;
             background-color: #abe1fd;
             font-size: 25px;
             width: 100%;
             height:1000px;
             }
-        h5{
+        #pictures{
             color:#000000;
             background-color: #bfb1d5;
             font-size: 25px;
             width: 100%;
             height:1000px;
             }
-        h6{
+        #subscription{
             color:#000000;
             background-color: #f4858e;
             font-size: 25px;
