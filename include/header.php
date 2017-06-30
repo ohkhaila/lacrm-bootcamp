@@ -7,9 +7,9 @@
         <head>
             <title>Keeping Up With Kay</title>
                    <link rel='stylesheet' href='/style.css?Time=<?php echo microtime()?>'/>
-                   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                   <link href="https://fonts.googleapis.com/css?family=Khand" rel="stylesheet">
-
+                   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+                   <link href="https://fonts.googleapis.com/css?family=Khand" rel="stylesheet"/>
+        </head>
         <body>
             <div id="nav">
                 <ul>
@@ -34,10 +34,11 @@
             </h2>
             <img src="/images/headshot.jpg" alt="headshot" style= "width:304px; height:228px; border-radius:50%"/>
                 <p>I'll put more info about myself here. I am a junior at Webster University studying Secondary Education with an emphasis in English Language Arts.</p>
-            <h2>
-                Subscribe and never miss a new blog post!
-            </h2>
-                <div id=subscription> <h3>Join Us!</h3>
+
+                <div id=subscription>
+                    <h3>
+                        Subscribe and never miss a new blog post!
+                    </h3>
                     <form method="POST" action="public/subscribe.php">
                          <p>Name: <input type="text" name="Name" size="20"></p>
                          <p>Email: <input type="text" name="Email" size="20"></p>
@@ -55,3 +56,4 @@
             </h2>
 
         </div>
+    </body>
