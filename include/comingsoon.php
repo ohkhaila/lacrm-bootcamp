@@ -6,7 +6,4 @@
         <p>Keeping Up with Kay</p>
     </div>
     <div class="middle">
-        <h1>COMING SOON</h1>
-        <hr>
-        <p>71 day</p>
     </div>
