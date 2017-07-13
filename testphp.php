@@ -35,6 +35,10 @@ date_default_timezone_set('America/Chicago');
              $y= $_REQUEST['num1'] / $_REQUEST['num2'];
         }
         echo "<h1>The result is $y </h1>";
+        InsertNum($_REQUEST['num1'], $_REQUEST['num2']);
+    }
+    function InsertNum($num1, $num2){
+    echo "$num1, $num2";
     }
 
 /*
@@ -44,7 +48,7 @@ date_default_timezone_set('America/Chicago');
                 /*arrays start at 0. so 'red' is 0, 'greem is 1'*/
 /*                $color2 = array('white', 'yellow','orange');
                 echo $color2[2]
-*/
+
 
                 echo"
                 	 <form method 'get' action=''>
@@ -67,7 +71,7 @@ date_default_timezone_set('America/Chicago');
                 		 </form>
                 		 ";
 
-
+*/
 
 
 
