@@ -23,4 +23,6 @@ function getAllInventory(){
         return $result->fetchAll();
 }
 var_dump(getAllInventory());
- ?>
+
+
+?>
