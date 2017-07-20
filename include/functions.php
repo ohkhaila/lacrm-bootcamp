@@ -15,11 +15,13 @@ return $result->fetch();
             SELECT *
             FROM posts
         ");
+
     return $result->fetchAll();
     }
-    foreach($Post as $indiv){
+    //foreach($Post as $indiv){
         // $indiv['title']
-        echo "
-        <a href='/public/viewpost.php?$BlogPostId=".$indiv['PostId']."'>".$indiv['Title']."</a>";
-    }
-?>
+    //    echo "
+    //    <a href='/public/viewpost.php?$BlogPostId=".$indiv['PostId']."'>".$indiv['Title']."</a>";
+
+    //}
+    ?>
