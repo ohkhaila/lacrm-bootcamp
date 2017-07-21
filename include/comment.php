@@ -97,10 +97,12 @@ if( $_POST )
   // to update our SQL query. For example, instead of "John Smith", we'll
   // use $users_name. Below is our updated SQL command:
   $query = "
-  INSERT INTO `cf`.`comments` (`id`, `name`, `email`, `comment`, `timestamp`, `articleid`)
-   VALUES (NULL, '$users_name',
+  INSERT INTO `cf`.`comments` (`name`, `email`, `comment`, `timestamp`, `BlogPostId`)
+   VALUES ('$users_name',
         '$users_email', '$users_comment',
         CURRENT_TIMESTAMP, '$articleid');";
+
+
 
   // Our SQL stated is stored in a variable called $query. To run the SQL command
   // we need to execute what is in the $query variable.

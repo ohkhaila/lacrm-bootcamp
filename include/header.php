@@ -14,11 +14,11 @@
             <div id="nav">
                 <ul>
                     <li><a href="/index.php">Home</a></li>
-                    <li><a href="/public/mindfulness.php">Mindfulness</a></li>
-                    <li><a href="/public/physicalwellness.php">Physical Wellness</a></li>
-                    <li><a href="/public/fun.php">Fun</a></li>
-                    <li><a href="/public/beauty.php">Beauty</a></li>
-                    <li><a href="/public/about.php">About</a></li>
+                    <li><a href="/view/mindfulness.php">Mindfulness</a></li>
+                    <li><a href="/view/physicalwellness.php">Physical Wellness</a></li>
+                    <li><a href="/view/fun.php">Fun</a></li>
+                    <li><a href="/view/beauty.php">Beauty</a></li>
+                    <li><a href="/view/about.php">About</a></li>
                 </ul>
              <a href="https://twitter.com/OhKHAila" class="fa fa-twitter"></a>
              <a href="https://www.snapchat.com/add/yo_jonesy" class="fa fa-snapchat-ghost"></a>
@@ -54,5 +54,6 @@
                 <a href="https://www.youtube.com/channel/UCLN0Ysl72hd0MQgKdrB7sAg" class="fa fa-youtube"></a>
             </h2>
 
-        </div>  
+        </div>
     </body>
+</br></br>

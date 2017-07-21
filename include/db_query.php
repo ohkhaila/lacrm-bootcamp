@@ -5,12 +5,14 @@
 //easily wrap it in a function if you want to control when the db connection is
 //initiated.
 $dsn = "mysql:host=".DB_HOSTNAME.";dbname=".DB_DATABASE.";charset=utf8";
+//dsn: Data Source Name -kj
 $opt = array(
     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
     PDO::ATTR_EMULATE_PREPARES   => false,
 );
 $pdo = new PDO($dsn, DB_USERNAME, DB_PASSWORD, $opt);
+//PDO Represents a connection between PHP and a database server. -kj
 
 //Note this is a homemade function that wraps around the default PHP/MySQL PDO
 //to make it a bit easier to make database calls. It assumes there's only one database
