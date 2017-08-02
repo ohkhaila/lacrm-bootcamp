@@ -1,4 +1,5 @@
 <?php
+
 //This function is getting a secific blog post from the database
 function getPost($PostId) {
     $result=dbQuery("
@@ -7,7 +8,7 @@ function getPost($PostId) {
         WHERE PostId = :PostId
         ",
         array(
-            "PostId"=>$PostId
+            "PostId"=>$PostId,
         ));
 return $result->fetch();
     }

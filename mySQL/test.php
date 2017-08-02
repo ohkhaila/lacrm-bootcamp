@@ -1,8 +1,8 @@
 <?php
-include("config/init.php");
+include('config/init.php');
 
 function insertInventory($Name, $Description, $NumberInStock, $Category){
-    $result= dbQuery("INSERT INTO inventory(Name, Description, NumberInStock, Category)
+    $result= dbQuery("INSERT INTO inventory (Name, Description, NumberInStock, Category)
     VALUES (:Name, :Description, :NumberInStock, :Category)",
     /*dbQuery takes a string... nothing is dynamic ':Name' is just text nothing an be changed about it*/
     array(

@@ -5,6 +5,7 @@ date_default_timezone_set('America/Chicago');
 }
 
                 echo"
+                <h1>Woah! A Calculator!</h1>
                     <form method='post' action=''>
                         <input name='num1' type='text' />
                         <select name= 'operation'>

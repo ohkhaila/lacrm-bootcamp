@@ -2,13 +2,15 @@
 
 /*function siteHeader(){
     echo */
+    //make sidebar footer
     ?>
     <html>
         <head>
-            <title>Keeping Up With Kay</title>
+            <title>Black Girl Thrive</title>
                    <link rel='stylesheet' href='/style.css?Time=<?php echo microtime()?>'/>
                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
                    <link href="https://fonts.googleapis.com/css?family=Khand" rel="stylesheet"/>
+                   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Dancing+Script|Lobster|Pacifico" rel="stylesheet">
         </head>
         <body>
             <div id="nav">
@@ -28,8 +30,9 @@
              <a href="https://www.instagram.com/ohkhaila" class="fa fa-instagram"></a>
             </div>
         </head>
-        <div id="sidebar">
-            <h2>
+    <!--   <div id="sidebar">
+        </br>
+        <h2>
                  Welcome
             </h2>
             <img src="/images/headshot.jpg" alt="headshot" style= "width:304px; height:228px; border-radius:50%"/>
@@ -54,6 +57,6 @@
                 <a href="https://www.youtube.com/channel/UCLN0Ysl72hd0MQgKdrB7sAg" class="fa fa-youtube"></a>
             </h2>
 
-        </div>
+        </div> -->
     </body>
 </br></br>
