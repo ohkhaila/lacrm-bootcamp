@@ -82,7 +82,7 @@ p{
             #sidebar {
             position:fixed;
             right: 0; top:0;  0; bottom:0;
-            width:100%;
+            width:250px;
             background:#ffffff;
             background: rgba(255,255,255, 0.3);
             font-size: 14px;
@@ -133,8 +133,9 @@ p{
         div{
             max-width:4000px;
             margin: auto;
-            background-color: #ffffff;
             padding: 10px;
+            background-color: #ffffff;
+            
             border-radius: 15px;
         }
         #BGM{

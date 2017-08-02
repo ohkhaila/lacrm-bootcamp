@@ -16,10 +16,9 @@
             <div id="nav">
                 <ul>
                     <li><a href="/index.php">Home</a></li>
-                    <li><a href="/view/mindfulness.php">Mindfulness</a></li>
-                    <li><a href="/view/physicalwellness.php">Physical Wellness</a></li>
-                    <li><a href="/view/fun.php">Fun</a></li>
-                    <li><a href="/view/beauty.php">Beauty</a></li>
+                    <li><a href="/view/mind.php">Mind</a></li>
+                    <li><a href="/view/body.php">Body</a></li>
+                    <li><a href="/view/spirit.php">Spirit</a></li>
                     <li><a href="/view/about.php">About</a></li>
                 </ul>
              <a href="https://twitter.com/OhKHAila" class="fa fa-twitter"></a>
@@ -30,7 +29,7 @@
              <a href="https://www.instagram.com/ohkhaila" class="fa fa-instagram"></a>
             </div>
         </head>
-    <!--   <div id="sidebar">
+       <div id="sidebar">
         </br>
         <h2>
                  Welcome
@@ -57,6 +56,6 @@
                 <a href="https://www.youtube.com/channel/UCLN0Ysl72hd0MQgKdrB7sAg" class="fa fa-youtube"></a>
             </h2>
 
-        </div> -->
+        </div>
     </body>
 </br></br>
