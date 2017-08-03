@@ -20,6 +20,7 @@
                     <li><a href="/view/body.php">Body</a></li>
                     <li><a href="/view/spirit.php">Spirit</a></li>
                     <li><a href="/view/about.php">About</a></li>
+                    <li><a href="/education/behavior.php">Student Behavior Tracker></a></li>
                 </ul>
              <a href="https://twitter.com/OhKHAila" class="fa fa-twitter"></a>
              <a href="https://www.snapchat.com/add/yo_jonesy" class="fa fa-snapchat-ghost"></a>

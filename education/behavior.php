@@ -75,56 +75,46 @@ include('config/init.php');
                         <option value='4'>4</option>
                         <option value='5'>5</option>
                     </select><br />
-                    <input type='submit' />
+                    <input type='submit' name='educationFormSubmit' />
                 </form>
-
         </div>
+
 <div id = 'blogPosts'>
 <?php
-if (isset($_REQUEST['firstname'])) {
-  echo "Your firstname is " . $_REQUEST['firstname'] . "<br>";
-}
+if(isset($_REQUEST['educationFormSubmit'])){
+    if (isset($_REQUEST['firstname'])) {
+      echo "Your firstname is " . $_REQUEST['firstname'] . "<br>";
+    }
 
-if(isset($_REQUEST['class']) && $_REQUEST['class'] =='fox'){
-  echo "You're in the fox class!<br/>";}
-    else{
-        echo "You're in the owl class!<br/>";}
+    if(isset($_REQUEST['class']) && $_REQUEST['class'] =='fox'){
+      echo "You're in the fox class!<br/>";}
+        else{
+            echo "You're in the owl class!<br/>";}
 
-  if(isset($_REQUEST['Directions']) && $_REQUEST['Directions'] >= 4){
-      echo "Master directions follower! <br/>";
-  }
-      else{
-          echo"
-          <form method='post'>
-            Please tell me more about your experience in class this week. Tell me about things that me and you did that helped and/or did not help you follow directions this week.
-              <input name='explain' type 'text'/>
-              <input type='submit'/>
-              </form>";
+      if(isset($_REQUEST['Directions']) && $_REQUEST['Directions'] >= 4){
+          echo "Master directions follower! <br/>";
       }
-      if(isset($_REQUEST['Attitude']) && $_REQUEST['Attitude'] >= 4){
-          echo "Awesome Attitude!<br/>";
-      }
-          else {
+          else{
               echo"
               <form method='post'>
-              Please tell me more about your experience in class this week. Tell me about things that me and you did that helped and/or did not help you follow directions this week.
+                Please tell me more about your experience with following directions in class this week. Tell me about things that me and you did that helped and/or did not help you follow directions this week.
                   <input name='explain' type 'text'/>
                   <input type='submit'/>
                   </form>";
           }
-          if(isset($_REQUEST['Materials']) && $_REQUEST['Materials'] >= 4){
-              echo "Thanks for being prepared this week!<br/>";
+          if(isset($_REQUEST['Attitude']) && $_REQUEST['Attitude'] >= 4){
+              echo "Awesome Attitude!<br/>";
           }
               else {
                   echo"
                   <form method='post'>
-                  Please tell me more about your experience in class this week. Tell me about things that me and you did that helped and/or did not help you follow directions this week.
+                  Please tell me more about your attitude in class this week. Tell me about things that me and you did that helped and/or did not help you follow directions this week.
                       <input name='explain' type 'text'/>
                       <input type='submit'/>
                       </form>";
               }
-              if(isset($_REQUEST['Respect']) && $_REQUEST['Respect'] >= 4){
-                  echo "Thanks for being a decent human.<br/>";
+              if(isset($_REQUEST['Materials']) && $_REQUEST['Materials'] >= 4){
+                  echo "Thanks for being prepared this week!<br/>";
               }
                   else {
                       echo"
@@ -134,8 +124,8 @@ if(isset($_REQUEST['class']) && $_REQUEST['class'] =='fox'){
                           <input type='submit'/>
                           </form>";
                   }
-                  if(isset($_REQUEST['TurnIn']) && $_REQUEST['TurnIn'] >= 4){
-                      echo "Nice job!";
+                  if(isset($_REQUEST['Respect']) && $_REQUEST['Respect'] >= 4){
+                      echo "Thanks for being a decent human.<br/>";
                   }
                       else {
                           echo"
@@ -144,49 +134,46 @@ if(isset($_REQUEST['class']) && $_REQUEST['class'] =='fox'){
                               <input name='explain' type 'text'/>
                               <input type='submit'/>
                               </form>";
-                              postResults($_REQUEST['firstname'], $_REQUEST['Directions'],  $_REQUEST['Attitude'], $_REQUEST['Materials'], $_REQUEST['$Respect'], $_REQUEST['TurnIn']);
-
                       }
-                      function postResults($firstname, $Directions, $Attitude, $Materials, $Respect, $TurnIn){
-                         echo "$firstname, $Directions, $Attitude, $Materials, $Respect, $TurnIn";
-                     }
-
-
-
-                    function insertResults($firstname, $Directions, $Attitude, $Materials, $Respect, $TurnIn){
-                          $result = dbQuery ("INSERT INTO education(FirstName, Directions, Attitude, Materials, Respect, TurnIn)
-                          VALUES (:FirstName, :Directions, :Attitude, :Materials, :Respect, :TurnIn)",
-                          array(
-                              $FirstName=>'Firstname',
-                              $Directions=>'Directions',
-                              $Attitude=>'Attitude',
-                              $Materials=>'Materials',
-                              $Respect=>'Respect',
-                              $TurnIn=>'Turnin',
-                          ));
+                      if(isset($_REQUEST['TurnIn']) && $_REQUEST['TurnIn'] >= 4){
+                          echo "Nice job!";
                       }
-                      function getAllResults(){
-                          $result = dbQuery("
-                          SELECT*
-                          FROM education
-                          ");
-                          return $result->fetchAll();
-                      }
+                          else {
+                              echo"
+                              <form method='post'>
+                              Please tell me more about your experience in class this week. Tell me about things that me and you did that helped and/or did not help you follow directions this week.
+                                  <input name='explain' type 'text'/>
+                                  <input type='submit'/>
+                                  </form>";
+                        //          postResults($_REQUEST['firstname'], $_REQUEST['Directions'],  $_REQUEST['Attitude'], $_REQUEST['Materials'], $_REQUEST['$Respect'], $_REQUEST['TurnIn']);
+
+                          }
+                        function postResults($firstname, $Directions, $Attitude, $Materials, $Respect, $TurnIn){
+                             echo "$firstname, $Directions, $Attitude, $Materials, $Respect, $TurnIn";
+                         }
+
+                        function insertResults($firstname, $Directions, $Attitude, $Materials, $Respect, $TurnIn){
+                              $result = dbQuery ("INSERT INTO education(FirstName, Directions, Attitude, Materials, Respect, TurnIn)
+                              VALUES (:FirstName, :Directions, :Attitude, :Materials, :Respect, :TurnIn)",
+                              array(
+                                  $FirstName=>'Firstname',
+                                  $Directions=>'Directions',
+                                  $Attitude=>'Attitude',
+                                  $Materials=>'Materials',
+                                  $Respect=>'Respect',
+                                  $TurnIn=>'Turnin',
+                              ));
+                          }
+                          function getAllResults(){
+                              $result = dbQuery("
+                              SELECT*
+                              FROM education
+                              ");
+                              return $result->fetchAll();
+                          }
+
+
+}
  ?>
 </div>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 </html>

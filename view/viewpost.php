@@ -41,7 +41,7 @@ $Comments=getCommentsForPost($BlogPostId);
 foreach ($Comments as $Comment){
     //$ShowComment= getComment($_REQUEST['CommentId']);
 
-echo "here";
+
     echo "
     <h2>".$Comment['Name']."</h2>
     <body>".$Comment['Comment']."</body>";
