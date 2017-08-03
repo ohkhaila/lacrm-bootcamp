@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Dancing Script', cursive;
-    font-size:20px;
+    font-size:25px;
     background-color: #dcd0c0;
     color: #373737;
 }
@@ -89,7 +89,7 @@ p{
             }
 
         h1{
-            color:#D4AF37;
+            color:#C0B283;
             text-align:center;
             }
         h3{
@@ -135,7 +135,7 @@ p{
             margin: auto;
             padding: 10px;
             background-color: #ffffff;
-            
+
             border-radius: 15px;
         }
         #BGM{

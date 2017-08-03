@@ -34,7 +34,7 @@
         <h2>
                  Welcome
             </h2>
-            <img src="/images/headshot.jpg" alt="headshot" style= "width:304px; height:228px; border-radius:50%"/>
+            <img src="/images/headshot.jpg" alt="headshot" style= "width:204px; height:128px; border-radius:50%"/>
                 <p>I'll put more info about myself here. I am a junior at Webster University studying Secondary Education with an emphasis in English Language Arts.</p>
 
                 <div id=subscription>
