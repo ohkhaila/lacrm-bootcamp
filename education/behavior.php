@@ -7,11 +7,11 @@ include('config/init.php');
          <title>Daily Check In with Miss Jones!</title>
     </head>
     <body>
+    </br></br>
         <div id = 'welcome'>
             <form method='get'>
                 Name <input type="text" name="firstname">
                  <br>
-
 
     Pick your class!
 
@@ -77,6 +77,7 @@ include('config/init.php');
                     </select><br />
                     <input type='submit' />
                 </form>
+
         </div>
 <div id = 'blogPosts'>
 <?php
@@ -143,16 +144,16 @@ if(isset($_REQUEST['class']) && $_REQUEST['class'] =='fox'){
                               <input name='explain' type 'text'/>
                               <input type='submit'/>
                               </form>";
-                              postResults($_REQUEST['Directions'], $_REQUEST['FirstName'], $_REQUEST['Attitude'], $_REQUEST['Materials'], $_REQUEST['TurnIn']);
+                              postResults($_REQUEST['firstname'], $_REQUEST['Directions'],  $_REQUEST['Attitude'], $_REQUEST['Materials'], $_REQUEST['$Respect'], $_REQUEST['TurnIn']);
 
                       }
-                      function postResults($FirstName, $Directions, $Attitude, $Materials, $Respect, $TurnIn){
-                         echo "$FirstName, $Directions, $Attitude, $Materials, $Respect, $TurnIn";
+                      function postResults($firstname, $Directions, $Attitude, $Materials, $Respect, $TurnIn){
+                         echo "$firstname, $Directions, $Attitude, $Materials, $Respect, $TurnIn";
                      }
 
 
 
-                    function insertResults($FirstName, $Directions, $Attitude, $Materials, $Respect, $TurnIn){
+                    function insertResults($firstname, $Directions, $Attitude, $Materials, $Respect, $TurnIn){
                           $result = dbQuery ("INSERT INTO education(FirstName, Directions, Attitude, Materials, Respect, TurnIn)
                           VALUES (:FirstName, :Directions, :Attitude, :Materials, :Respect, :TurnIn)",
                           array(
@@ -173,4 +174,19 @@ if(isset($_REQUEST['class']) && $_REQUEST['class'] =='fox'){
                       }
  ?>
 </div>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 </html>

@@ -29,7 +29,7 @@
              <a href="https://www.instagram.com/ohkhaila" class="fa fa-instagram"></a>
             </div>
         </head>
-       <div id="sidebar">
+    <!--   <div id="sidebar">
         </br>
         <h2>
                  Welcome
@@ -56,6 +56,6 @@
                 <a href="https://www.youtube.com/channel/UCLN0Ysl72hd0MQgKdrB7sAg" class="fa fa-youtube"></a>
             </h2>
 
-        </div>
+        </div> -->
     </body>
 </br></br>
