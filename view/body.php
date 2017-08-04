@@ -18,7 +18,7 @@
     </p>
 </body>
 <h3> Latest Post</h3>
-<a href='http://local.codingfellowship.com:8083/view/viewpost.php?BlogPostId=2'>Let's Get Healthy!</a>
+<a href='http://ohkhaila.codingfellowship.com/view/viewpost.php?BlogPostId=2'>Let's Get Healthy!</a>
 <?php
 
 
