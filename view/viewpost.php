@@ -1,5 +1,5 @@
 <?php
-    include('config/init.php');
+    include('init.php');
 $BlogPostId= $_REQUEST['BlogPostId'];
     //View blog post. This is printing the html/css of the blog post
         $Post = getPost($_REQUEST['BlogPostId']);

@@ -1,3 +1,3 @@
 <?php
-    include('config/init.php');
+    include('init.php');
     ?>

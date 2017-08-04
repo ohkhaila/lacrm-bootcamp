@@ -1,5 +1,5 @@
 <?php
-include ('config/init.php');
+include ('init.php');
 
 $Post = getPost($_REQUEST['BlogPostId']);
     echo "

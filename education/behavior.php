@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('America/Chicago');
-include('config/init.php');
+include('init.php');
 ?>
  <html>
      <head>
