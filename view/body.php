@@ -10,7 +10,7 @@
           Focusing on these three ideals in relation to my body has changed my understanding of
           what I want for my own pesonal health. Hopefully, these ideals will be of use to you as well.
             Start with love. Everything that you do for yourself needs to start with love for yourself
-            and your growth. You appreciate your victories and have a reason to fight through </br>your toughest battles.
+            and your growth. You appreciate your victories and have a reason to fight through your toughest battles.
             Without it, you allow negative things, people, and thoughts to influence your decisions because
             it's easyh to forget what you're fighting for. Self love is a great reminder. </br>
 

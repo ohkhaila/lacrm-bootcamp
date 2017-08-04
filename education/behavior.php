@@ -7,7 +7,8 @@ include('init.php');
          <title>Daily Check In with Miss Jones!</title>
     </head>
     <body>
-    </br></br>
+        <h3>Weekly Check In with Miss Jones</h3>
+    </br>
         <div id = 'welcome'>
             <form method='get'>
                 Name <input type="text" name="firstname">
