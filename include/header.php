@@ -13,22 +13,27 @@
                    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Dancing+Script|Lobster|Pacifico" rel="stylesheet">
         </head>
         <body>
-            <div id="nav">
-                <ul>
-                    <li><a href="/index.php">Home</a></li>
-                    <li><a href="/view/mind.php">Mind</a></li>
-                    <li><a href="/view/body.php">Body</a></li>
-                    <li><a href="/view/spirit.php">Spirit</a></li>
-                    <li><a href="/view/about.php">About</a></li>
-                    <li><a href="/education/behavior.php">Student Behavior Tracker></a></li>
-                </ul>
-             <a href="https://twitter.com/OhKHAila" class="fa fa-twitter"></a>
-             <a href="https://www.snapchat.com/add/yo_jonesy" class="fa fa-snapchat-ghost"></a>
-             <a href="https://www.pinterest.com/khailaj43/" class="fa fa-pinterest"></a>
-             <a href="https://www.linkedin.com/in/khaila-jones-913699aa/" class="fa fa-linkedin"></a>
-             <a href="https://www.youtube.com/channel/UCLN0Ysl72hd0MQgKdrB7sAg" class="fa fa-youtube"></a>
-             <a href="https://www.instagram.com/ohkhaila" class="fa fa-instagram"></a>
-            </div>
+<?php
+        function navigation(){
+            echo '<div id="nav">';
+                echo '<ul>';
+                    echo '<li><a href="/index.php">Home</a></li>';
+                    echo '<li><a href="/view/mind.php">Mind</a></li>';
+                    echo '<li><a href="/view/body.php">Body</a></li>';
+                    echo '<li><a href="/view/spirit.php">Spirit</a></li>';
+                    echo '<li><a href="/view/about.php">About</a></li>';
+                    echo '<li><a href="/education/behavior.php">Student Behavior Tracker></a></li>';
+                echo '</ul>';
+             echo '<a href="https://twitter.com/OhKHAila" class="fa fa-twitter"></a>';
+             echo '<a href="https://www.snapchat.com/add/yo_jonesy" class="fa fa-snapchat-ghost"></a>';
+             echo '<a href="https://www.pinterest.com/khailaj43/" class="fa fa-pinterest"></a>';
+             echo '<a href="https://www.linkedin.com/in/khaila-jones-913699aa/" class="fa fa-linkedin"></a>';
+             echo '<a href="https://www.youtube.com/channel/UCLN0Ysl72hd0MQgKdrB7sAg" class="fa fa-youtube"></a>';
+             echo '<a href="https://www.instagram.com/ohkhaila" class="fa fa-instagram"></a>';
+            echo '</div>';
+        }
+        navigation();
+?>
         </head>
     <!--   <div id="sidebar">
         </br>
